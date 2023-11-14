@@ -1,7 +1,4 @@
-<div align="center">
-  <a href="http://www.mayaramein.com/"><img src="https://i.imgur.com/8EekJZH.png" width=150  /></a>
-
-  ## Backend NodeJs Development
+## Backend NodeJs Development
 
   ![](https://img.shields.io/badge/NodeJs-ebdcff?style=flat&logo=node.js&logoColor=black) ![](https://img.shields.io/badge/ExpressJs-ebdcff?style=flat&logo=express&logoColor=black) ![](https://img.shields.io/badge/Javascript-ebdcff?style=flat&logo=javascript&logoColor=black) ![](https://img.shields.io/badge/MongoDB-ebdcff?style=flat&logo=mongodb&logoColor=black) ![](https://img.shields.io/badge/Mogoose-ebdcff?style=flat&logo=mongoose&logoColor=black)
   
@@ -60,20 +57,6 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 
 This project is licensed under the [MIT License](LICENSE).
 
+### Contact
 
-## Contact
-
-<div align="center">
- <a href="http://www.mayaramein.com/"><img src="https://i.imgur.com/QwGkBal.png"  width=120  /></a>
- 
-![](https://img.shields.io/badge/Data_Scientist-ebdcff?style=flat) ![](https://img.shields.io/badge/Software_Engineer-ebdcff?style=flat)  ![](https://img.shields.io/badge/Full_Stack_Web_Developer-ebdcff?style=flat)  
-
-
-  [![](https://img.shields.io/badge/Microsoft_Outlook-ffcb33?style=for-the-badge&logo=microsoft-outlook&logoColor=black)](mailto:mayaramein@outlook.com) [![](https://img.shields.io/badge/website-ffcb33?style=for-the-badge&logo=About.me&logoColor=black)](https://mayaramein.com)
-[![](https://img.shields.io/badge/LinkedIn-ffcb33?style=for-the-badge&logo=linkedin&logoColor=black)](https://linkedin.com/in/mayaramein) 
-
-</div>
-
-
-
-
+Developed by Guna Palanivel from India. Feel free to reach out for inquiries or collaborations!
