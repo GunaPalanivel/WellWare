@@ -1,21 +1,36 @@
 const { MongoClient } = require("mongodb");
 
-// MongoDB connection URL. Make sure to replace <connection_string> with your MongoDB connection string.
-const uri = "mongodb://localhost:27017/admin";
+const uri = "mongodb://localhost:27017"; // Replace with your MongoDB URI
+const dbName = "admin"; // Replace with your database name
 
-// Connect to MongoDB
-async function connectToMongoDB() {
-  try {
-    const client = new MongoClient(uri, { useUnifiedTopology: true });
-    await client.connect();
+let client;
 
-    // Access the admin database
-    console.log("connected to mongodb");
-    client.close();
-  } catch (error) {
-    console.error("Error connecting to MongoDB:", error);
+async function connectDB() {
+  if (!client) {
+    client = new MongoClient(uri, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+
+    try {
+      await client.connect();
+      console.log("Connected to the MongoDB server");
+    } catch (err) {
+      console.error("Could not connect to MongoDB", err);
+      throw err;
+    }
   }
+  return client;
 }
 
-// Call the connectToMongoDB function to start the connection
-connectToMongoDB();
+async function getDB() {
+  if (!client) {
+    await connectDB();
+  }
+  return client.db(dbName);
+}
+
+module.exports = {
+  connectDB,
+  getDB,
+};
